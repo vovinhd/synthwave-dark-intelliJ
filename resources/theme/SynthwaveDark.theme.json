@@ -1,0 +1,95 @@
+{
+  "name": "Synthwave Dark",
+  "dark": true,
+  "author": "Rachel Volk",
+  "editorScheme": "/SynthwaveDarkEditorTheme.xml",
+  "colors": {
+    "background": "#12111f",
+    "editor": "#12111f",
+    "inactiveTab": "#2d2d2d",
+    "selection": "#2a162a",
+    "text": "#c2c2c2",
+    "selectedText": "#ffa114",
+    "inactiveSelection": "#2a2d2e",
+    "accent": "#a0f3e4",
+    "menuBorder": "#2a162a",
+    "border": "#f52277",
+    "paneBorder": "#1d1e7d"
+  },
+  "ui": {
+    "*": {
+      "foreground": "text",
+      "background": "background",
+      "selectionBackground": "selection",
+      "selectionForeground": "accent",
+      "separatorColor": "border",
+      "arc": 0,
+      "MainMenu.transparentSelectionBackground": "accent"
+    },
+
+    "MainToolbar": {
+      "background": "background",
+      "separatorColor": "menuBorder"
+    },
+    "Editor": {
+      "background": "editor"
+    },
+    "Borders": {
+      "color": "paneBorder",
+      "ContrastBorderColor": "border"
+    },
+    "DefaultTabs": {
+      "background": "inactiveTab",
+      "hoverBackground": "inactiveTab",
+      "borderColor": "background"
+    },
+    "EditorTabs": {
+      "underlineHeight": 3,
+      "inactiveUnderlineColor": "editor",
+      "underlineColor": "border",
+      "underlinedTabBackground": "editor",
+      "underlinedTabForeground": "selectedText"
+    },
+    "Panel" : {
+      "foreground": "#acacac"
+    },
+    "Tree": {
+      "rowHeight": 24,
+      "modifiedItemForeground": "accent",
+      "selectionInactiveBackground": "inactiveSelection",
+      "Selection.arc": 0
+    },
+    "Menu": {
+      "borderColor": "menuBorder"
+    },
+    "Popup": {
+      "borderColor": "menuBorder"
+    },
+    "PopupMenuSeparator": {
+      "height": 13,
+      "stripeIndent": 6,
+      "stripeWidth": 1
+    },
+    "MenuBar": {
+      "borderColor": "background"
+    },
+    "NavBar": {
+      "borderColor": "border"
+    },
+    "Button": {
+      "arc": 2
+    },
+    "StatusBar": {
+      "borderColor": "background"
+    },
+    "ToolWindow": {
+      "Header": {
+        "borderColor": "background",
+        "inactiveBackground": "background"
+      },
+      "Button": {
+        "hoverBackground": "inactiveSelection"
+      }
+    }
+  }
+}
